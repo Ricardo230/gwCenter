@@ -5,11 +5,11 @@ class Contactos extends CI_Controller {
 
 	public function index(){
 		$this->load->helper('url');
-		$this->load->model('modeloContactos');
-		$data = $this->modeloContactos->getContactos();
-		//$numProductos = $this->Modelo_producto->countProducts();
-		$cielo = array("data"=>$data);
-		$this->load->view('index', $cielo);
+		$this->load->view('index');
+	}
+
+	public function login(){
+		$this->load->view('login');
 	}
 
 	private function getAll(){

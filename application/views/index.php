@@ -51,7 +51,6 @@
 	  <body>
 		<nav class="navbar navbar-default navbar-inverse">
 		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 		        <span class="sr-only">Toggle navigation</span>
@@ -62,9 +61,7 @@
 		      <img  style="width:120px; margin:8px;" src="<?php echo base_url();?>img/gs_logo.png">
 		    </div>
 
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">		      
 		      <ul class="nav navbar-nav navbar-right">
 		        <li><a href="#">My grades</a></li>
 		        <li class="dropdown">
@@ -82,12 +79,9 @@
 			            <li><a href="#">Log Out</a></li>
 		          	</ul>
 		        </li>
-		        <li>
-		        	
-		        </li>
 		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
+		    </div>
+		  </div>
 		</nav>
 
 		<div class="page-wrap">
@@ -101,7 +95,6 @@
 				<div class="alert alert-success alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><h4>Heads up!</h4><p>Change this and that and try again. <a class="alert-link">Duis mollis</a>, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.</p><p><a class="btn btn-success" href="#">Take this action</a> <a class="btn btn-link" href="#">Or do this</a></p></div>
 			</div>
 		</div>
-
 
 		<div class="footer">
 			<div class="container">
