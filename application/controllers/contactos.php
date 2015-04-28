@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Contactos extends CI_Controller {
 
 	public function index(){
+		$this->load->helper('url');
 		$this->load->model('modeloContactos');
 		$data = $this->modeloContactos->getContactos();
 		//$numProductos = $this->Modelo_producto->countProducts();
